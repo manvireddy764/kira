@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>INDEX PAGE</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<link rel="stylesheet" href="fontawesome/font/css/all.css">
+	<style>
+		#main-header
+{
+	background:linear-gradient(45deg,cyan,orange,green);
+	background-size:cover;
+	padding:30px;Z
+	text-align:right;
+}
+#main-header h1
+{
+	color:white;
+	margin:0px;
+}
+#main-navbar
+{
+	background:linear-gradient(45deg,darkslategrey,coral,blue);
+	padding:10px;
+	display:flex;
+	flex-direction:row;
+}
+#main-navbar a
+{
+	color:white;
+	text-decoration:none;
+    margin: auto;
+	display:inline-block;
+	padding:5px 20px;
+	border-radius:10px;
+	background:linear-gradient(45deg,magenta,darkslategrey);
+}
+#main-navbar a:hover
+{
+	box-shadow:0 0 10px white;
+}
+#main-navbar a.active
+{
+	background:linear-gradient(45deg,darkslategrey,darkred);
+}
+.fa
+{
+	padding-right:5px;
+}
+#main-content-section
+{
+	text-align:center;
+	margin-top:15px;
+}
+#main-content-section .main-content-article
+{
+	box-shadow:0 0 10px black;
+	width:330px;
+	display:inline-block;
+	height:500px;
+	margin-right:10px;
+	border-radius:20px;
+	display:inline-grid;
+	transition:all 0.5s;
+}
+#main-content-section .main-content-article img
+{
+	width:inherit;
+}
+#main-content-section .main-content-article:hover
+{
+	width:340px;
+	cursor:pointer;
+}
+#main-news-section
+{
+	background:linear-gradient(45deg,lightsalmon,yellow);
+	width:80%;
+	margin:auto;
+	text-align:center;
+	border-radius:20px;
+
+}
+#main-news-section .main-news-article
+{
+	border-radius:20px;
+	box-shadow:0 0 10px blue;
+}
+
+#main-news-section .main-news-article h2
+{
+	background:linear-gradient(45deg,orange,blue,green);
+	padding:10px;
+	color:white;
+	border-radius:20px 20px 0px 0px;
+}
+#main-news-section .main-news-article .zoom
+{
+	width:70%;
+	border-radius:20px;
+	margin:auto;
+	overflow:hidden;
+}
+#main-news-section .main-news-article .zoom img
+{
+	width:inherit;
+	height:250px;
+	border-radius:20px;
+	transition:all 1s;
+}
+#main-news-section .main-news-article .zoom:hover img
+{
+	transform:scale(1.2,1.2);
+}
+footer
+{
+	background:linear-gradient(45deg,blue,orange,green);
+	color:white;
+	text-align:center;
+}
+@media (min-width:0px) and (max-width:800px)
+{
+	#main-navbar
+	{
+		flex-direction:column;
+	}
+	#main-navbar a
+	{
+		margin-top:10px;
+	}
+}
+	</style>
+</head>
+<body>
+	<header id="main-header">
+		<h1 class="animate__animated animate__zoomIn"><span style="color:blue">Jspiders</span> Training Center</h1>
+	</header>
+	<nav id="main-navbar" class="animate__animated animate__flipInX">
+		<a href="#" class="active"><i class="fa fa-home"></i>Home</a>
+		<a href="#"><i class="fa fa-newspaper"></i>News</a>
+		<a href="#"><i class="fa fa-images"></i>Gallery</a>
+		<a href="#"><i class="fa fa-id-badge"></i>About</a>
+		<a href="#"><i class="fa fa-envelope"></i>Contact Us</a>
+	</nav>
+	<section id="main-content-section">
+		<article class="main-content-article animate__animated animate__heartBeat
+
+">
+			<h2>Courses</h2>
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ6u3xrtQ3X_L9gJyLL-21CBohykEf4ev1GQ&usqp=CAU">
+			<div class="main-content">
+				<p>Java is among the most popular programming languages out there, mainly because of how versatile and compatible it is. Java can be used for a large number of things, including software development, mobile applications, and large systems development. As of 2019.</p>
+			</div>
+		</article>
+		
+		<article class="main-content-article animate__animated animate__jello">
+			<h2>Placements</h2>
+			<img src="https://annamacharyagroup.org/wp-content/uploads/2018/05/Tip-for-campus-placements-2-05-2018.jpg">
+			<div class="main-content">
+				<p>Well, with the campus placement season beginning, all college students in studying in their final year are gearing up to land their first jobs. However, just like all other things in a career life, you need to not just prepare but also chalk out an Action Plan for your approach, so you can land the perfect first job..</p>
+			</div>
+		</article>
+		<article class="main-content-article animate__animated animate__jello">
+			<h2>Trainer</h2>
+			<img src="https://www.vskills.in/certification/tutorial/wp-content/uploads/2018/05/training-as-a-trainer-tutorial-train-the-trainer.jpg">
+			<div class="main-content">
+				<p>Training as a Trainer Tutorial will help you to learn about the training sessions that will help people to develop new skills. Through this tutorial, you can learn about the different methods of directing training sessions.</p>
+			</div>
+		</article>
+	</section>
+	<section id="main-news-section">
+		
+		<article class="main-news-article animate__animated animate__slideInUp"> 
+			<h2>COURSE NEWS</h2>
+			<figure class="zoom">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ6u3xrtQ3X_L9gJyLL-21CBohykEf4ev1GQ&usqp=CAU">
+			</figure>
+			<p>Java is among the most popular programming languages out there, mainly because of how versatile and compatible it is. Java can be used for a large number of things, including software development, mobile applications, and large systems development. As of 2019.</p>
+			<p>Java is among the most popular programming languages out there, mainly because of how versatile and compatible it is. Java can be used for a large number of things, including software development, mobile applications, and large systems development. As of 2019.</p>
+		</article>
+		
+		<article class="main-news-article animate__animated animate__slideInUp"> 
+			<h2>PLACEMENTS NEWS</h2>
+			<figure class="zoom">
+				<img src="https://annamacharyagroup.org/wp-content/uploads/2018/05/Tip-for-campus-placements-2-05-2018.jpg">
+			</figure>
+			<p>Well, with the campus placement season beginning, all college students in studying in their final year are gearing up to land their first jobs. However, just like all other things in a career life, you need to not just prepare but also chalk out an Action Plan for your approach, so you can land the perfect first job.</p>
+			<p>Well, with the campus placement season beginning, all college students in studying in their final year are gearing up to land their first jobs. However, just like all other things in a career life, you need to not just prepare but also chalk out an Action Plan for your approach, so you can land the perfect first job.</p>
+		</article>
+		
+		<article class="main-news-article animate__animated animate__slideInUp"> 
+			<h2>TRAINER NEWS</h2>
+			<figure class="zoom">
+				<img src="https://www.vskills.in/certification/tutorial/wp-content/uploads/2018/05/training-as-a-trainer-tutorial-train-the-trainer.jpg">
+			</figure>
+			<p>Training as a Trainer Tutorial will help you to learn about the training sessions that will help people to develop new skills. Through this tutorial, you can learn about the different methods of directing training sessions.</p>
+			<p>Training as a Trainer Tutorial will help you to learn about the training sessions that will help people to develop new skills. Through this tutorial, you can learn about the different methods of directing training sessions.</p>
+		</article>
+	</section>
+	<footer id="main-footer">
+		<h3>CopyRight:&copy;2021</h3>
+		<p>All Rights Are Reserved</p>
+		<small>Developed & Maintained By
+			<a href="#Jspiders">Jspiders</a></small>
+	</footer>
+
+
+</body>
+</html>
